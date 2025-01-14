@@ -212,6 +212,7 @@ class MyLogger:
             display_title += " " * space_length
         return display_title
 
+
     def ghost(self, text):
         if not self.ignore_ghost:
             try:
@@ -219,6 +220,15 @@ class MyLogger:
             except UnicodeEncodeError:
                 text = text.encode("utf-8")
                 print(self._space(f"| {text}"), end="\r")
+            self.spacing = len(text) + 2
+
+    def ghostnopipe(self, text):
+        if not self.ignore_ghost:
+            try:
+                print(self._space(f" {text}"), end="\r")
+            except UnicodeEncodeError:
+                text = text.encode("utf-8")
+                print(self._space(f" {text}"), end="\r")
             self.spacing = len(text) + 2
 
     def exorcise(self):
