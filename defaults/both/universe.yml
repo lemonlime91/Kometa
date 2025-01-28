@@ -59,6 +59,7 @@ dynamic_collections:
       avp: Alien / Predator
       arrow: Arrowverse
       askew: View Askewniverse
+      conj: The Conjuring Universe
       dca: DC Animated Universe
       dcu: DC Extended Universe
       fast: Fast & Furious
@@ -88,6 +89,7 @@ dynamic_collections:
         mcu: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
         trek: https://trakt.tv/users/jmfslayer/lists/star-trek-chronology-updated?sort=rank,asc
         middle: https://trakt.tv/users/oya-kesh/lists/middle-earth
+        conj: https://trakt.tv/lists/30523245
       # check2
       mdblist_url:
         avp: https://mdblist.com/lists/k0meta/external/16872
